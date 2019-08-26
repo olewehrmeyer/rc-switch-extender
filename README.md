@@ -6,7 +6,7 @@ levels for these 9 values.
 
 ## Cabling & Co.
 
-![Wiring diagram](https://github.com/olewehrmeyer/pwm-switch-extender/raw/master/images/wiring_bb.png "Wiring Diagram")
+![Wiring diagram](https://github.com/olewehrmeyer/rc-switch-extender/raw/master/images/wiring_bb.png "Wiring Diagram")
 
 ## How to configure
 
