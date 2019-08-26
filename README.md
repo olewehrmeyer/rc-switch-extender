@@ -15,8 +15,8 @@ Use the `read-pwm-levels` sketch first to determine the pwm levels and tolerance
 - Connect the PWM channel of the remote receiver to digital pin 2 of your Arduino (or change mapping below)
 - Start the sketch and connect a serial monitor with baud 115200
 - For each position of the switch
--- Bring switch into that position
--- Note down the average value and recommended range
+   - Bring switch into that position
+   - Note down the average value and recommended range
 - Insert the average values and the max(recommended range) into the extender script
 - If your values have sufficient spacing, feel free to extend the Tolerance to be sure that the fallback pwm level does not get activated
 - Set your wanted fallback pwm level in the extender script
