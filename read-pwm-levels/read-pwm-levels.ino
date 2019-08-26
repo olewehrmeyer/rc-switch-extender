@@ -26,8 +26,8 @@
 volatile unsigned long timer_start;
 
 // to calculate average
-// increasing size will increase accuracy until calculation causes int overflow
-#define ARR_SIZE 10
+// increasing size will increase accuracy until calculation takes too long
+#define ARR_SIZE 20
 volatile int last_values[ARR_SIZE];
 volatile int curr_arr_pointer = 0;
 
@@ -70,7 +70,7 @@ void setup()
 void loop()
 {
   delay(1000);
-  int sum = 0;
+  long sum = 0;
   int minimum = 10000; // okay as remote range should be 1000-2000
   int maximum = 0;
   for (int i = 0; i < ARR_SIZE; i++)
